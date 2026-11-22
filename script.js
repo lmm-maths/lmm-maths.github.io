@@ -33,13 +33,13 @@ function lmm_translate()
         document.getElementById("tr_nav_main").innerHTML = "主頁";
         document.getElementById("tr_nav_who").innerHTML = "站長是誰？";
         document.getElementById("tr_nav_serious").innerHTML = "樽酒論文";
-        // document.getElementById("tr_nav_formulae").innerHTML = "到底公式";
-        // document.getElementById("tr_nav_symbols").innerHTML = "數學符號";
-        // document.getElementById("tr_nav_number").innerHTML = "整數數論";
-        // document.getElementById("tr_nav_algebra").innerHTML = "眾代數學";
-        // document.getElementById("tr_nav_logic").innerHTML = "邏輯、集合";
-        // document.getElementById("tr_nav_analysis").innerHTML = "微積分析";
-        // document.getElementById("tr_nav_other").innerHTML = "其他方面";
+        document.getElementById("tr_nav_formulae").innerHTML = "到底公式";
+        document.getElementById("tr_nav_symbols").innerHTML = "數學符號";
+        document.getElementById("tr_nav_number").innerHTML = "整數數論";
+        document.getElementById("tr_nav_algebra").innerHTML = "眾代數學";
+        document.getElementById("tr_nav_logic").innerHTML = "邏輯、集合";
+        document.getElementById("tr_nav_analysis").innerHTML = "微積分析";
+        document.getElementById("tr_nav_other").innerHTML = "其他方面";
         document.getElementById("tr_nav_lang").innerHTML = "返歸英語";
         if (loc.includes("index.html"))
         {
@@ -50,14 +50,14 @@ function lmm_translate()
             document.getElementById("tr_claim").innerHTML = "（不光僅僅數學！）";
             document.getElementById("tr_latest").innerHTML = "最新隨筆";
             document.getElementById("tr_article_lang").innerHTML = "懇請諸位原恕筆者嘗僅用英語寫作。";
-            // document.getElementById("tr_archaic").innerHTML = "夫眾述式、爾等當覽以瞭然！";
+            document.getElementById("tr_archaic").innerHTML = "夫眾述式、爾等當覽以瞭然！";
         }
-        // document.getElementById("tr_dogma").innerHTML = "吾等數學教條";
-        // document.getElementById("tr_those_symbols").innerHTML = "那些\\( \\LaTeX \\)符號";
-        // document.getElementById("tr_those_properties").innerHTML = "那些整數的二三事";
-        // document.getElementById("tr_those_algebra").innerHTML = "那些抽象（和不抽象）的代數";
-        // document.getElementById("tr_those_building").innerHTML = "那些數學的根源";
-        // document.getElementById("tr_those_continue").innerHTML = "那些連續的搗蛋鬼";
+        document.getElementById("tr_dogma").innerHTML = "吾等數學教條";
+        document.getElementById("tr_those_symbols").innerHTML = "那些\\( \\LaTeX \\)符號";
+        document.getElementById("tr_those_properties").innerHTML = "那些整數的二三事";
+        document.getElementById("tr_those_algebra").innerHTML = "那些抽象（和不抽象）的代數";
+        document.getElementById("tr_those_building").innerHTML = "那些數學的根源";
+        document.getElementById("tr_those_continue").innerHTML = "那些連續的搗蛋鬼";
         document.getElementById("tr_foot_articles").innerHTML = "文章列表";
         
         if (loc.includes("about.html"))
@@ -179,13 +179,13 @@ function lmm_translate()
         document.getElementById("tr_nav_main").innerHTML = "主页";
         document.getElementById("tr_nav_who").innerHTML = "站长是谁？";
         document.getElementById("tr_nav_serious").innerHTML = "樽酒论文";
-        // document.getElementById("tr_nav_formulae").innerHTML = "到底公式";
-        // document.getElementById("tr_nav_symbols").innerHTML = "数学符号";
-        // document.getElementById("tr_nav_number").innerHTML = "整数数论";
-        // document.getElementById("tr_nav_algebra").innerHTML = "众代数学";
-        // document.getElementById("tr_nav_logic").innerHTML = "逻辑与集合";
-        // document.getElementById("tr_nav_analysis").innerHTML = "微积分析";
-        // document.getElementById("tr_nav_other").innerHTML = "其他众面";
+        document.getElementById("tr_nav_formulae").innerHTML = "到底公式";
+        document.getElementById("tr_nav_symbols").innerHTML = "数学符号";
+        document.getElementById("tr_nav_number").innerHTML = "整数数论";
+        document.getElementById("tr_nav_algebra").innerHTML = "众代数学";
+        document.getElementById("tr_nav_logic").innerHTML = "逻辑与集合";
+        document.getElementById("tr_nav_analysis").innerHTML = "微积分析";
+        document.getElementById("tr_nav_other").innerHTML = "其他众面";
         document.getElementById("tr_nav_lang").innerHTML = "回归英语版";
         if (loc.includes("index.html"))
         {
@@ -196,14 +196,14 @@ function lmm_translate()
             document.getElementById("tr_claim").innerHTML = "（搁这儿不光仅仅有数学！）";
             document.getElementById("tr_latest").innerHTML = "最新随笔";
             document.getElementById("tr_article_lang").innerHTML = "恳请诸君原谅作者仅用英语写作。";
-            // document.getElementById("tr_archaic").innerHTML = "夫众述式、尔等当览以了然！";
+            document.getElementById("tr_archaic").innerHTML = "夫众述式、尔等当览以了然！";
         }
-        // document.getElementById("tr_dogma").innerHTML = "吾等数学教条";
-        // document.getElementById("tr_those_symbols").innerHTML = "那些\\( \\LaTeX \\)符号";
-        // document.getElementById("tr_those_properties").innerHTML = "那些整数的二三事";
-        // document.getElementById("tr_those_algebra").innerHTML = "那些抽象（和不抽象）的代数";
-        // document.getElementById("tr_those_building").innerHTML = "那些数学的根源";
-        // document.getElementById("tr_those_continue").innerHTML = "那些连续的捣蛋鬼";
+        document.getElementById("tr_dogma").innerHTML = "吾等数学教条";
+        document.getElementById("tr_those_symbols").innerHTML = "那些\\( \\LaTeX \\)符号";
+        document.getElementById("tr_those_properties").innerHTML = "那些整数的二三事";
+        document.getElementById("tr_those_algebra").innerHTML = "那些抽象（和不抽象）的代数";
+        document.getElementById("tr_those_building").innerHTML = "那些数学的根源";
+        document.getElementById("tr_those_continue").innerHTML = "那些连续的捣蛋鬼";
         document.getElementById("tr_foot_articles").innerHTML = "文章列表";
         
         if (loc.includes("about.html"))
@@ -326,13 +326,13 @@ function lmm_translate()
         document.getElementById("tr_nav_main").innerHTML = "ホームページ";
         document.getElementById("tr_nav_who").innerHTML = "作者の紹介";
         document.getElementById("tr_nav_serious").innerHTML = "論文";
-        // document.getElementById("tr_nav_formulae").innerHTML = "数式の一覧表";
-        // document.getElementById("tr_nav_symbols").innerHTML = "数学記号";
-        // document.getElementById("tr_nav_algebra").innerHTML = "代数学の理論など";
-        // document.getElementById("tr_nav_number").innerHTML = "整数論";
-        // document.getElementById("tr_nav_logic").innerHTML = "論理学と集合論";
-        // document.getElementById("tr_nav_analysis").innerHTML = "解析学と微積分";
-        // document.getElementById("tr_nav_other").innerHTML = "他の数学";
+        document.getElementById("tr_nav_formulae").innerHTML = "数式の一覧表";
+        document.getElementById("tr_nav_symbols").innerHTML = "数学記号";
+        document.getElementById("tr_nav_algebra").innerHTML = "代数学の理論など";
+        document.getElementById("tr_nav_number").innerHTML = "整数論";
+        document.getElementById("tr_nav_logic").innerHTML = "論理学と集合論";
+        document.getElementById("tr_nav_analysis").innerHTML = "解析学と微積分";
+        document.getElementById("tr_nav_other").innerHTML = "他の数学";
         document.getElementById("tr_nav_lang").innerHTML = "英語ページに戻る";
         if (loc.includes("index.html"))
         {
@@ -343,14 +343,14 @@ function lmm_translate()
             document.getElementById("tr_claim").innerHTML = "（…とはいうものの、数学について内容だけではありません！）";
             document.getElementById("tr_latest").innerHTML = "最新文章やニュース";
             document.getElementById("tr_article_lang").innerHTML = "申し訳ないが、著者が英語のみで執筆していることをお許しください。";
-            // document.getElementById("tr_archaic").innerHTML = "あゝ見よ見よ、上品な数式";
+            document.getElementById("tr_archaic").innerHTML = "あゝ見よ見よ、上品な数式";
         }
-        // document.getElementById("tr_dogma").innerHTML = "我々の数学教旨";
-        // document.getElementById("tr_those_symbols").innerHTML = "あの\\( \\LaTeX \\)記号によって";
-        // document.getElementById("tr_those_properties").innerHTML = "あの数えによって";
-        // document.getElementById("tr_those_algebra").innerHTML = "あの昔から現代までの古今代数学";
-        // document.getElementById("tr_those_building").innerHTML = "ある数学と呼ぶビルの基礎によって";
-        // document.getElementById("tr_those_continue").innerHTML = "あの連続的なトロールによって";
+        document.getElementById("tr_dogma").innerHTML = "我々の数学教旨";
+        document.getElementById("tr_those_symbols").innerHTML = "あの\\( \\LaTeX \\)記号によって";
+        document.getElementById("tr_those_properties").innerHTML = "あの数えによって";
+        document.getElementById("tr_those_algebra").innerHTML = "あの昔から現代までの古今代数学";
+        document.getElementById("tr_those_building").innerHTML = "ある数学と呼ぶビルの基礎によって";
+        document.getElementById("tr_those_continue").innerHTML = "あの連続的なトロールによって";
         document.getElementById("tr_foot_articles").innerHTML = "分類された文章の一覧表";
         
         if (loc.includes("about.html"))
@@ -471,14 +471,14 @@ function lmm_translate()
     {
         document.getElementById("tr_nav_main").innerHTML = "La page d'accueil";
         document.getElementById("tr_nav_who").innerHTML = "Qui est l'auteur?";
-        // document.getElementById("tr_nav_serious").innerHTML = "Les articles";
-        // document.getElementById("tr_nav_formulae").innerHTML = "Le tableau des formules";
-        // document.getElementById("tr_nav_symbols").innerHTML = "Les symboles mathématiques";
-        // document.getElementById("tr_nav_number").innerHTML = "La théorie des nombres";
-        // document.getElementById("tr_nav_algebra").innerHTML = "L'algèbre";
-        // document.getElementById("tr_nav_logic").innerHTML = "La théorie logique et des ensembles";
-        // document.getElementById("tr_nav_analysis").innerHTML = "Le calcul et l'analyse";
-        // document.getElementById("tr_nav_other").innerHTML = "L'autre domaine";
+        document.getElementById("tr_nav_serious").innerHTML = "Les articles";
+        document.getElementById("tr_nav_formulae").innerHTML = "Le tableau des formules";
+        document.getElementById("tr_nav_symbols").innerHTML = "Les symboles mathématiques";
+        document.getElementById("tr_nav_number").innerHTML = "La théorie des nombres";
+        document.getElementById("tr_nav_algebra").innerHTML = "L'algèbre";
+        document.getElementById("tr_nav_logic").innerHTML = "La théorie logique et des ensembles";
+        document.getElementById("tr_nav_analysis").innerHTML = "Le calcul et l'analyse";
+        document.getElementById("tr_nav_other").innerHTML = "L'autre domaine";
         document.getElementById("tr_nav_lang").innerHTML = "Retour à l'anglais";
         if (loc.includes("index.html"))
         {
@@ -489,14 +489,14 @@ function lmm_translate()
             document.getElementById("tr_claim").innerHTML = "(Malgré cela, il y a bien plus que les mathématiques!)";
             document.getElementById("tr_latest").innerHTML = "Les derniers articles";
             document.getElementById("tr_article_lang").innerHTML = "Vous veuillez noter que les articles suivants sont disponsibles seulement en anglais.";
-            // document.getElementById("tr_archaic").innerHTML = "INSPICE SEQVENTES FORMVLAS!";
+            document.getElementById("tr_archaic").innerHTML = "INSPICE SEQVENTES FORMVLAS!";
         }
-        // document.getElementById("tr_dogma").innerHTML = "Notre dogme mathématique";
-        // document.getElementById("tr_those_symbols").innerHTML = "Des sujets des symboles de \\( \\LaTeX \\)";
-        // document.getElementById("tr_those_properties").innerHTML = "Des sujets des affaires des nombres";
-        // document.getElementById("tr_those_algebra").innerHTML = "Des sujets des études d'algèbres";
-        // document.getElementById("tr_those_building").innerHTML = "Des sujets des éléments de base des mathématiques";
-        // document.getElementById("tr_those_continue").innerHTML = "Des sujets des énigmes continues";
+        document.getElementById("tr_dogma").innerHTML = "Notre dogme mathématique";
+        document.getElementById("tr_those_symbols").innerHTML = "Des sujets des symboles de \\( \\LaTeX \\)";
+        document.getElementById("tr_those_properties").innerHTML = "Des sujets des affaires des nombres";
+        document.getElementById("tr_those_algebra").innerHTML = "Des sujets des études d'algèbres";
+        document.getElementById("tr_those_building").innerHTML = "Des sujets des éléments de base des mathématiques";
+        document.getElementById("tr_those_continue").innerHTML = "Des sujets des énigmes continues";
         document.getElementById("tr_foot_articles").innerHTML = "La liste de quelques articles";
         
         if (loc.includes("about.html"))
@@ -614,13 +614,13 @@ function lmm_translate()
         document.getElementById("tr_nav_main").innerHTML = "Página principal";
         document.getElementById("tr_nav_who").innerHTML = "#iquest; Quién soy yo?";
         document.getElementById("tr_nav_serious").innerHTML = "Articulos";
-        // document.getElementById("tr_nav_formulae").innerHTML = "Tabla de fórmulas";
-        // document.getElementById("tr_nav_symbols").innerHTML = "Símbolos matemáticos";
-        // document.getElementById("tr_nav_number").innerHTML = "De la teoría de números";
-        // document.getElementById("tr_nav_algebra").innerHTML = "De la algebra";
-        // document.getElementById("tr_nav_logic").innerHTML = "De la lógica y la teoría de conjuntos";
-        // document.getElementById("tr_nav_analysis").innerHTML = "Del cálculo y análisis";
-        // document.getElementById("tr_nav_other").innerHTML = "Las otras disciplinas";
+        document.getElementById("tr_nav_formulae").innerHTML = "Tabla de fórmulas";
+        document.getElementById("tr_nav_symbols").innerHTML = "Símbolos matemáticos";
+        document.getElementById("tr_nav_number").innerHTML = "De la teoría de números";
+        document.getElementById("tr_nav_algebra").innerHTML = "De la algebra";
+        document.getElementById("tr_nav_logic").innerHTML = "De la lógica y la teoría de conjuntos";
+        document.getElementById("tr_nav_analysis").innerHTML = "Del cálculo y análisis";
+        document.getElementById("tr_nav_other").innerHTML = "Las otras disciplinas";
         document.getElementById("tr_nav_lang").innerHTML = "Volver al inglés";
         if (loc.includes("index.html"))
         {
@@ -631,14 +631,14 @@ function lmm_translate()
             document.getElementById("tr_claim").innerHTML = "(A pesar de esto, #iexcl; hay algo más que matemáticas!)";
             document.getElementById("tr_latest").innerHTML = "Últimos artículos";
             document.getElementById("tr_article_lang").innerHTML = "El autor pide disculpas por haber escrito los siguientes artículos solemente en inglés.";
-            // document.getElementById("tr_archaic").innerHTML = "INSPICE SEQVENTES FORMVLAS!";
+            document.getElementById("tr_archaic").innerHTML = "INSPICE SEQVENTES FORMVLAS!";
         }
-        // document.getElementById("tr_dogma").innerHTML = "Nuestro dogma matemático";
-        // document.getElementById("tr_those_symbols").innerHTML = "Sobre los símbolos de \\( \\LaTeX \\)";
-        // document.getElementById("tr_those_properties").innerHTML = "Sobre los intrigantes números enteros";
-        // document.getElementById("tr_those_algebra").innerHTML = "Sobre el estudio de la algebra";
-        // document.getElementById("tr_those_building").innerHTML = "Sobre los fundamentos de las matemáticas";
-        // document.getElementById("tr_those_continue").innerHTML = "Sobre las cosas continuas enigmáticas";
+        document.getElementById("tr_dogma").innerHTML = "Nuestro dogma matemático";
+        document.getElementById("tr_those_symbols").innerHTML = "Sobre los símbolos de \\( \\LaTeX \\)";
+        document.getElementById("tr_those_properties").innerHTML = "Sobre los intrigantes números enteros";
+        document.getElementById("tr_those_algebra").innerHTML = "Sobre el estudio de la algebra";
+        document.getElementById("tr_those_building").innerHTML = "Sobre los fundamentos de las matemáticas";
+        document.getElementById("tr_those_continue").innerHTML = "Sobre las cosas continuas enigmáticas";
         document.getElementById("tr_foot_articles").innerHTML = "Lista de artículos";
         
         if (loc.includes("about.html"))
@@ -756,13 +756,13 @@ function lmm_translate()
         document.getElementById("tr_nav_main").innerHTML = "Главно";
         document.getElementById("tr_nav_who").innerHTML = "Кто я?";
         document.getElementById("tr_nav_serious").innerHTML = "Статьи";
-        // document.getElementById("tr_nav_formulae").innerHTML = "Таблица формул";
-        // document.getElementById("tr_nav_symbols").innerHTML = "О символах математических";
-        // document.getElementById("tr_nav_number").innerHTML = "О теории целых чисел";
-        // document.getElementById("tr_nav_algebra").innerHTML = "Об алгебре";
-        // document.getElementById("tr_nav_logic").innerHTML = "О логике и теории множеств";
-        // document.getElementById("tr_nav_analysis").innerHTML = "О исчисление и анализе";
-        // document.getElementById("tr_nav_other").innerHTML = "О других дисциплинах";
+        document.getElementById("tr_nav_formulae").innerHTML = "Таблица формул";
+        document.getElementById("tr_nav_symbols").innerHTML = "О символах математических";
+        document.getElementById("tr_nav_number").innerHTML = "О теории целых чисел";
+        document.getElementById("tr_nav_algebra").innerHTML = "Об алгебре";
+        document.getElementById("tr_nav_logic").innerHTML = "О логике и теории множеств";
+        document.getElementById("tr_nav_analysis").innerHTML = "О исчисление и анализе";
+        document.getElementById("tr_nav_other").innerHTML = "О других дисциплинах";
         document.getElementById("tr_nav_lang").innerHTML = "Английский";
         if (loc.includes("index.html"))
         {
@@ -773,14 +773,14 @@ function lmm_translate()
             document.getElementById("tr_claim").innerHTML = "(Тем не менее, на этом сайте гораздо больше, чем просто математика!)";
             document.getElementById("tr_latest").innerHTML = "Новейшие статьи";
             document.getElementById("tr_article_lang").innerHTML = "Статьи доступны только на английском языке.";
-            // document.getElementById("tr_archaic").innerHTML = "Посмотрите-вы на следующие формулы!";
+            document.getElementById("tr_archaic").innerHTML = "Посмотрите-вы на следующие формулы!";
         }
-        // document.getElementById("tr_dogma").innerHTML = "Догма математическая наша";
-        // document.getElementById("tr_those_symbols").innerHTML = "Здесь чём-то о символах \\( \\LaTeX \\)";
-        // document.getElementById("tr_those_properties").innerHTML = "Здесь чём-то о числах целых";
-        // document.getElementById("tr_those_algebra").innerHTML = "Здесь чём-то о изучении алгебры";
-        // document.getElementById("tr_those_building").innerHTML = "Здесь чём-то о фундаментальных структурах математики";
-        // document.getElementById("tr_those_continue").innerHTML = "Здесь чём-то о других темах";
+        document.getElementById("tr_dogma").innerHTML = "Догма математическая наша";
+        document.getElementById("tr_those_symbols").innerHTML = "Здесь чём-то о символах \\( \\LaTeX \\)";
+        document.getElementById("tr_those_properties").innerHTML = "Здесь чём-то о числах целых";
+        document.getElementById("tr_those_algebra").innerHTML = "Здесь чём-то о изучении алгебры";
+        document.getElementById("tr_those_building").innerHTML = "Здесь чём-то о фундаментальных структурах математики";
+        document.getElementById("tr_those_continue").innerHTML = "Здесь чём-то о других темах";
         document.getElementById("tr_foot_articles").innerHTML = "Список статей";
         
         if (loc.includes("about.html"))
@@ -898,13 +898,13 @@ function lmm_translate()
         document.getElementById("tr_nav_main").innerHTML = "Main";
         document.getElementById("tr_nav_who").innerHTML = "Who Am I?";
         document.getElementById("tr_nav_serious").innerHTML = "Serious Stuff";
-        // document.getElementById("tr_nav_formulae").innerHTML = "The Formulae";
-        // document.getElementById("tr_nav_symbols").innerHTML = "Symbols";
-        // document.getElementById("tr_nav_number").innerHTML = "Number Theory";
-        // document.getElementById("tr_nav_algebra").innerHTML = "Algebra";
-        // document.getElementById("tr_nav_logic").innerHTML = "Logic &amp; Set Theory";
-        // document.getElementById("tr_nav_analysis").innerHTML = "Analysis &amp; Calculus";
-        // document.getElementById("tr_nav_other").innerHTML = "Other Disciplines";
+        document.getElementById("tr_nav_formulae").innerHTML = "The Formulae";
+        document.getElementById("tr_nav_symbols").innerHTML = "Symbols";
+        document.getElementById("tr_nav_number").innerHTML = "Number Theory";
+        document.getElementById("tr_nav_algebra").innerHTML = "Algebra";
+        document.getElementById("tr_nav_logic").innerHTML = "Logic &amp; Set Theory";
+        document.getElementById("tr_nav_analysis").innerHTML = "Analysis &amp; Calculus";
+        document.getElementById("tr_nav_other").innerHTML = "Other Disciplines";
         document.getElementById("tr_nav_lang").innerHTML = "Other Languages";
         if (loc.includes("index.html"))
         {
@@ -915,14 +915,14 @@ function lmm_translate()
             document.getElementById("tr_claim").innerHTML = "(More than just maths.)";
             document.getElementById("tr_latest").innerHTML = "Latest articles";
             document.getElementById("tr_article_lang").innerHTML = "The articles are available in English only.";
-            // document.getElementById("tr_archaic").innerHTML = "Beholdst thou these formulae";
+            document.getElementById("tr_archaic").innerHTML = "Beholdst thou these formulae";
         }
-        // document.getElementById("tr_dogma").innerHTML = "The Mathematical Dogma";
-        // document.getElementById("tr_those_symbols").innerHTML = "Those \\( \\LaTeX \\) symbols";
-        // document.getElementById("tr_those_properties").innerHTML = "Those properties of numbers";
-        // document.getElementById("tr_those_algebra").innerHTML = "Those algebraic studies";
-        // document.getElementById("tr_those_building").innerHTML = "Those building blocks";
-        // document.getElementById("tr_those_continue").innerHTML = "Those continuous-ness";
+        document.getElementById("tr_dogma").innerHTML = "The Mathematical Dogma";
+        document.getElementById("tr_those_symbols").innerHTML = "Those \\( \\LaTeX \\) symbols";
+        document.getElementById("tr_those_properties").innerHTML = "Those properties of numbers";
+        document.getElementById("tr_those_algebra").innerHTML = "Those algebraic studies";
+        document.getElementById("tr_those_building").innerHTML = "Those building blocks";
+        document.getElementById("tr_those_continue").innerHTML = "Those continuous-ness";
         document.getElementById("tr_foot_articles").innerHTML = "The Articles";
         
         if (loc.includes("about.html"))
