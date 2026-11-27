@@ -9,3 +9,8 @@ Desktop.ini
 *.suo
 *.ntvs*
 *.njsproj
+
+# Node.js; because we don't use them otherwise
+node_*/
+*.json
+
